@@ -135,7 +135,7 @@
 
       <div class="row">
         <div class="col-md-10 col-lg-8">
-          <p>If you don't already have a website domain name, you'll need one. I recommend using <a href="http://domains.google">Google Domains</a> or <a href="http://hover.com">Hover.com</a> to purchase and mange your domain name.</p>
+          <p>If you don't already have a website domain name like <strong>IndivisibleSF.org</strong>, you'll need one. Go to <a href="http://domains.google">Google Domains</a> to purchase a domain name.</p>
           <p>Once you've completed the purchase of your domain name move on to the next step.</p>
           <p>If you already have a domain name move on to the next step.</p>
         </div>
@@ -150,7 +150,7 @@
 
       <div class="row">
         <div class="col-md-10 col-lg-8">
-          <p>The Indivisible Template is hosted on GitHub.com, a popular open source tool. GitHub makes it easy for you to copy the Invisibile Template and provides you with space to host your copy of it. Don't worry, you don't need to manage any servers or administer any software or look at any code.</p>
+          <p>The Indivisible Template is hosted on GitHub.com, a popular open source hosting service. GitHub makes it easy for you to copy the Invisibile Template and provides you with space to host your new Indivisible Template website. Don't worry, you don't need to manage any servers or administer any software or look at any code.</p>
           <h5>1. Create a free GitHub.com account</h5>
           <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. When asked to pick a plan select <em>Unlimited public repositories for free</em>. GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email.</p>
           <h5>2. "Fork" the template</h5>
@@ -172,7 +172,13 @@
           <h5>4. Tell your domain registrar that GitHub is hosting your website</h5>
           <p>Now that you have GitHub hosting your new Indivisible Template website, you need to tell your domain registrar to point your domain name to GitHub's servers.</p>
           <p>Log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>.</p>
-          <p>If you need help ask your domain registrar for assistance.</p>
+          <p>In Google Domains, this is the icon you click to edit your domain's DNS settings:</p>
+          <p><img class="img-fluid shadow" src="assets/screenshot-dns-select.png"></p>
+          <p>In Google Domains, look for the <em>Custom resource records</em> section of the DNS settings tab:</p>
+          <p><img class="img-fluid shadow" src="assets/a-records-screenshot.png"></p>
+          <p>In the form above, you'd first type in <strong>1</strong> for the <em>name</em> field, then enter <strong>192.30.252.153</strong> into the <em>IPv4 address</em> field and click the <em>Add</em> button. Then repeat that process and enter <strong>2</strong> for the <em>name</em> field and <strong>192.30.252.154</strong> into the <em>IPv4 address</em> and click <em>Add</em> again.</p>
+          <p>That's it for this step.</p>
+          <p class="mt-4">If you need help ask with a different domain registrar please ask them for assistance changing your A records.</p>
           <p>
         </div>
       </div>
@@ -257,17 +263,19 @@
 
       <div class="row">
         <div class="col-sm-9 col-lg-8">
+          <h5 class="text-danger">"Pull Requests"</h5>
+          <p>Because your Indivisible Tempalate website is hosted on GitHub, people can try to send you code updates with what is called a "Pull Request". <strong>Do not accept any pull requests form anyone except the official IndivisibleTemplate</strong>.</p>
+
           <h5 class="text-danger">Privacy</h5>
           <p>You should consider every piece of content hosted on your Indivisible Website to be public. There are no password protected pages. Do not try to store and information on your website that contains personal information about you or any of your members. You should even consider your draft blog posts to be public. This is both because your website code is stored on GitHub and because nearly every piece of software is vulnerable to hacking.</p>
+
           <h5 class="text-danger">Security</h5>
           <p>Please take these precautions when setting up and use any online account, including the Github and Siteleaf accounts that are required for the Indivisible Template.</p>
           <ul>
             <li><a href="https://github.com/blog/1614-two-factor-authentication">Enable Two-factor authentication</a> for your GitHub account.</li>
-            <li><a href="http://kb.mailchimp.com/accounts/login/set-up-a-two-factor-authentication-app-at-login">Enable two-factor authentication</a> for your Mailchimp account. This one is especially important if you use Mailchimp to store your member list.<li>
-            <li>Don't share your usernames or passwords with anyone via email, Facebook message, or any other method. Ideally meet in person to share this kind of information.</p>
+            <li><a href="http://kb.mailchimp.com/accounts/login/set-up-a-two-factor-authentication-app-at-login">Enable two-factor authentication</a> for your Mailchimp account. This one is especially important if you use Mailchimp to store your member list.</li>
+            <li>Don't share your usernames or passwords with anyone via email, Facebook message, or any other method. Ideally meet in person to share this kind of information.</li>
           </ul>
-          <h5 class="text-danger">"Pull Requests"</h5>
-          <p>Because your Indivisible Tempalte website is hosted on GitHub </p>
 
         </div>
       </div>
