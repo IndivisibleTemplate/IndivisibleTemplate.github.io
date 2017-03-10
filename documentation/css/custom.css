@@ -28,3 +28,7 @@ p {
 .shadow {
   border: 20px solid #ddd;
 }
+
+.alert iframe {
+  vertical-align: middle;
+}

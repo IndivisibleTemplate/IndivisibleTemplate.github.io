@@ -154,34 +154,40 @@
           <h5>1. Create a free GitHub.com account</h5>
           <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. Fill out your basic info in <Strong>Step 1</strong>. In <strong>Step 2</strong> select <em>Unlimited public repositories for free</em> in the plan options. Do <strong>not</strong> check the "Help me set up an organization next" box during step 2.</p>
           <p>After filling out your info you should end up on a page like this:</p>
-          <img src="assets/screenshot-github-homepage.png" class="img-fluid shadow">
-          <p>GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email.</p>
+          <p><img src="assets/screenshot-github-homepage.png" class="img-fluid shadow"></p>
+          <p><strong>Important</strong>: GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email before going to the next step.</p>
           <h5>2. "Fork" the template</h5>
           <p>Click the "Fork" button below to copy the Indivisible Template to your GitHub account. You'll be taken to GitHub and shown the new copy of your Indivisible Template.</p>
-          <p>
-            <!-- Place this tag where you want the button to render. -->
-            <a class="github-button" href="https://github.com/IndivisibleTemplate/BasicTemplate/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork IndivisibleTemplate/BasicTemplate on GitHub" target="_blank">Fork</a>
-          </p>
           <p>Forking, for our purposes, just means to copy the Indivisible Template to your account so only you can edit it.</p>
-          <p>From there click the <em>Settings</em> link in the top right of the page.</p>
+
+          <div class="alert alert-success" role="alert">
+            <a class="github-button" href="https://github.com/IndivisibleTemplate/BasicTemplate/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork IndivisibleTemplate/BasicTemplate on GitHub" target="_blank">Fork</a> &nbsp; &larr; Click this button to get your copy of Indivisible Template
+          </div>
+          <p>After clicking the "fork" button above you'll be taken to GitHub.com. There you'll asked which GitHub account you want your new website to be associated with. Just select the account you just set up in <em>Step 1</em>.</p>
+          <p><img src="assets/screenshot-github-selectforkaccount.png" class="img-fluid shadow"></p>
+          <p><em>The name and icon of your account may look be different than the sceenshot above above</em></p>
+          <p>GitHub will then tell you that it is copying the Indivisible Template to your account. This should only take a minute.</p>
+          <h5>3. Edit your copy of Indivisible Template</h5>
+          <p>Once GitHub finishing copying the Indivisible Template to your account you'll be taken to your new copy. Click the <em>Settings</em> link in the top right of the page so we can connect your copy of the Indivisible Template to the internet and connect it to your domain.</p>
           <p><img src="assets/screenshot-github-settings.png" class="img-fluid shadow"></p>
           <p>In the <em>Repository name</em> field toward the top of the page change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong></em>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd change the name here to <strong>IndivisibleSF.github.io</strong></p>
-          <p><img src="assets/" class="img-fluid shadow"></p>
+          <p><img src="assets/sceenshot-repo-name.png" class="img-fluid shadow"></p>
 
-          <h5>3. Tell GitHub to connect your Indivisible Template to your domain</h5>
+          <h5>4. Tell GitHub to connect your Indivisible Template to your domain</h5>
 
           <p>In the same settings page where you just edited the name field, scroll down to the <em>GitHub Pages</em> section. This is what tells GitHub to turn on your website.</p>
 
           <p>First, in the <em>Source</em> selection of the <em>GitHub Pages</em> section of the settings page click the <em>None</em> dropdown and select <em>Master branch</em> and click the <em>Save</em> button.</p>
-          <img src="assets/" class="img-fluid">
+          <p><img src="assets/sceenshot-default-repo.png" class="img-fluid shadow"></p>
           <p>The page should refresh and if you scroll back down ot the <em>GitHub Pages</em> section of the settings page you'll see a new <em>Custom domain</em> field. Enter in the website domain you want to use for your website. For example, if you had purchase <em>IndivisibleEB.com</em> you would put in <em>IndivisibleEB.com</em>. Enter your domain and then click <em>Save</em>.
-          <p>In you followed the above steps you should get a notification like this in the <em>GitHub Pages</em> section of the settings page. If you click the link you should see your new website.</p>
-          <h5>4. Tell your domain registrar that GitHub is hosting your website</h5>
+          <p><img src="assets/sceenshot-set-custom-domain.png" class="img-fluid shadow"></p>
+          <p>In you followed the above steps you should get a notification like the above in the <em>GitHub Pages</em> section of the settings page. If you click the link in the green box you should see your new website.</p>
+          <h5>5. Tell your domain registrar that GitHub is hosting your website</h5>
           <p>Now that you have GitHub hosting your new Indivisible Template website, you need to tell your domain registrar to point your domain name to GitHub's servers so that your domain (e.g. <em>IndivisibleEB.com</em>) points to your new website.</p>
           <p>Log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>.</p>
           <p>In Google Domains, this is the icon you click to edit your domain's DNS settings:</p>
           <p><img class="img-fluid shadow" src="assets/screenshot-dns-select.png"></p>
-          <p>Ignore all the field on this page <em>except</em> for the <em>Custom resource records</em> section of the DNS settings tab:</p>
+          <p>Ignore all the fields on this page <em>except</em> for the <em>Custom resource records</em> section of the DNS settings tab:</p>
           <p><img class="img-fluid shadow" src="assets/a-records-screenshot.png"></p>
           <p>In the form above:</p>
           <ul>
