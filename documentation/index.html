@@ -72,8 +72,8 @@
           <li><a href="#designphilosophy">Design Philosophy</a></li>
           <li><a href="#domain">Getting a Domain</a></li>
           <li><a href="#template">Getting the Template (GitHub)</a></li>
-          <li><a href="#sitleaf">Your new CMS (Siteleaf)</a></li>
-          <li><a href="#cms">Editing Your Site</a></li>
+          <li><a href="#sitleaf">Your New CMS (Siteleaf)</a></li>
+          <li><a href="#cms">Editing Your New Site</a></li>
           <li><a href="#notes">Important Notes</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contributing">Contributing</a></li>
@@ -154,7 +154,7 @@
           <h5>1. Create a free GitHub.com account</h5>
           <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. Fill out your basic info in <Strong>Step 1</strong>. In <strong>Step 2</strong> select <em>Unlimited public repositories for free</em> in the plan options. Do <strong>not</strong> check the "Help me set up an organization next" box during step 2.</p>
           <p>After filling out your info you should end up on a page like this:</p>
-          <img src="assets/" class="img-fluid">
+          <img src="assets/screenshot-github-homepage.png" class="img-fluid shadow">
           <p>GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email.</p>
           <h5>2. "Fork" the template</h5>
           <p>Click the "Fork" button below to copy the Indivisible Template to your GitHub account. You'll be taken to GitHub and shown the new copy of your Indivisible Template.</p>
@@ -163,10 +163,10 @@
             <a class="github-button" href="https://github.com/IndivisibleTemplate/BasicTemplate/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork IndivisibleTemplate/BasicTemplate on GitHub" target="_blank">Fork</a>
           </p>
           <p>Forking, for our purposes, just means to copy the Indivisible Template to your account so only you can edit it.</p>
-          <img src="assets/" class="img-fluid">
           <p>From there click the <em>Settings</em> link in the top right of the page.</p>
-          <img src="assets/" class="img-fluid">
-          <p>In the <em>Repository name</em> field change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd change the name here to <strong>IndivisibleSF.github.io</strong></p>
+          <p><img src="assets/screenshot-github-settings.png" class="img-fluid shadow"></p>
+          <p>In the <em>Repository name</em> field toward the top of the page change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong></em>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd change the name here to <strong>IndivisibleSF.github.io</strong></p>
+          <p><img src="assets/" class="img-fluid shadow"></p>
 
           <h5>3. Tell GitHub to connect your Indivisible Template to your domain</h5>
 
@@ -181,9 +181,13 @@
           <p>Log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>.</p>
           <p>In Google Domains, this is the icon you click to edit your domain's DNS settings:</p>
           <p><img class="img-fluid shadow" src="assets/screenshot-dns-select.png"></p>
-          <p>In Google Domains, look for the <em>Custom resource records</em> section of the DNS settings tab:</p>
+          <p>Ignore all the field on this page <em>except</em> for the <em>Custom resource records</em> section of the DNS settings tab:</p>
           <p><img class="img-fluid shadow" src="assets/a-records-screenshot.png"></p>
-          <p>In the form above, you'd first type in <strong>1</strong> for the <em>name</em> field, then enter <strong>192.30.252.153</strong> into the <em>IPv4 address</em> field and click the <em>Add</em> button. Then repeat that process and enter <strong>2</strong> for the <em>name</em> field and <strong>192.30.252.154</strong> into the <em>IPv4 address</em> and click <em>Add</em> again.</p>
+          <p>In the form above:</p>
+          <ul>
+            <li>First type in <strong>@</strong> for the <em>name</em> field, then enter <strong>192.30.252.153</strong> into the <em>IPv4 address</em> field and click the <em>Add</em> button.</li>
+            <li>Repeat the process you just did and enter <strong>2</strong> for the <em>name</em> field and <strong>192.30.252.154</strong> into the <em>IPv4 address</em> and click <em>Add</em> again.</p>
+          </ul>
           <p>That's it for this step.</p>
           <p class="mt-4">If you need help ask with a different domain registrar please ask them for assistance changing your A records.</p>
           <p>
@@ -222,7 +226,7 @@
 
       <div class="spacer clearfix"></div>
       <hr>
-      <h1 id="siteleaf">Using Your New CMS</h1>
+      <h1 id="cms">Editing Your New Site</h1>
       <div class="clearfix spacer"></div>
 
       <div class="row">
