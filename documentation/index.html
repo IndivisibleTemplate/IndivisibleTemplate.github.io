@@ -152,25 +152,32 @@
         <div class="col-md-10 col-lg-8">
           <p>The Indivisible Template is hosted on GitHub.com, a popular open source hosting service. GitHub makes it easy for you to copy the Invisibile Template and provides you with space to host your new Indivisible Template website. Don't worry, you don't need to manage any servers or administer any software or look at any code.</p>
           <h5>1. Create a free GitHub.com account</h5>
-          <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. When asked to pick a plan select <em>Unlimited public repositories for free</em>. GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email.</p>
+          <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. Fill out your basic info in <Strong>Step 1</strong>. In <strong>Step 2</strong> select <em>Unlimited public repositories for free</em> in the plan options. Do <strong>not</strong> check the "Help me set up an organization next" box during step 2.</p>
+          <p>After filling out your info you should end up on a page like this:</p>
+          <img src="assets/" class="img-fluid">
+          <p>GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email.</p>
           <h5>2. "Fork" the template</h5>
           <p>Click the "Fork" button below to copy the Indivisible Template to your GitHub account. You'll be taken to GitHub and shown the new copy of your Indivisible Template.</p>
-          <p>Forking, for our purposes, just means to copy the Indivisible Template to your account so only you can edit it.</p>
           <p>
             <!-- Place this tag where you want the button to render. -->
-            <a class="github-button" href="https://github.com/IndivisibleTemplate/BasicTemplate/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork IndivisibleTemplate/BasicTemplate on GitHub">Fork</a>
+            <a class="github-button" href="https://github.com/IndivisibleTemplate/BasicTemplate/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork IndivisibleTemplate/BasicTemplate on GitHub" target="_blank">Fork</a>
           </p>
+          <p>Forking, for our purposes, just means to copy the Indivisible Template to your account so only you can edit it.</p>
+          <img src="assets/" class="img-fluid">
+          <p>From there click the <em>Settings</em> link in the top right of the page.</p>
+          <img src="assets/" class="img-fluid">
+          <p>In the <em>Repository name</em> field change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd change the name here to <strong>IndivisibleSF.github.io</strong></p>
+
           <h5>3. Tell GitHub to connect your Indivisible Template to your domain</h5>
-          <ul>
-            <li>Sign into GitHub.com if you're not already logged in. Click the GitHub logo icon in the top left of GitHub.com after logging in to get to your GitHub homepage.</li>
-            <li>Click the <em>BasicTemplate</em> link in the right hand column of your GitHub homepage under <em>Your repositories</em>. <em>Repository</em> here just means the place where your Indivisible Template is stored.</li>
-            <li>Click the <em>Settings</em> tab toward the top-right of the page.</li>
-            <li>In the <em>Repository name</em> field at the top of the page change the name from <em>BasicTemplate</em> to <em>YourGitHubUserName.github.io</em> and click <em>Rename</em> button to the right of that field. For example, if your GitHub username was <em>IndivisibleSF</em> you should change your repository’s name to <em>IndivisibleSF.github.io</em>.
-            <li>Next, scroll down to the <em>GitHub Pages</em> section of the Settings page and find the <em>Custom domain</em> field. Enter your chapter's domain name (e.g. IndivisibleSF.org) and click Save.</li>
-          </ul>
-          <p>If you did everything correctly when you go ot <em>yourGitHubUsername.github.io</em> you should see a generic Indivisible Template ready for you to customize and use.</p>
+
+          <p>In the same settings page where you just edited the name field, scroll down to the <em>GitHub Pages</em> section. This is what tells GitHub to turn on your website.</p>
+
+          <p>First, in the <em>Source</em> selection of the <em>GitHub Pages</em> section of the settings page click the <em>None</em> dropdown and select <em>Master branch</em> and click the <em>Save</em> button.</p>
+          <img src="assets/" class="img-fluid">
+          <p>The page should refresh and if you scroll back down ot the <em>GitHub Pages</em> section of the settings page you'll see a new <em>Custom domain</em> field. Enter in the website domain you want to use for your website. For example, if you had purchase <em>IndivisibleEB.com</em> you would put in <em>IndivisibleEB.com</em>. Enter your domain and then click <em>Save</em>.
+          <p>In you followed the above steps you should get a notification like this in the <em>GitHub Pages</em> section of the settings page. If you click the link you should see your new website.</p>
           <h5>4. Tell your domain registrar that GitHub is hosting your website</h5>
-          <p>Now that you have GitHub hosting your new Indivisible Template website, you need to tell your domain registrar to point your domain name to GitHub's servers.</p>
+          <p>Now that you have GitHub hosting your new Indivisible Template website, you need to tell your domain registrar to point your domain name to GitHub's servers so that your domain (e.g. <em>IndivisibleEB.com</em>) points to your new website.</p>
           <p>Log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>.</p>
           <p>In Google Domains, this is the icon you click to edit your domain's DNS settings:</p>
           <p><img class="img-fluid shadow" src="assets/screenshot-dns-select.png"></p>
@@ -274,7 +281,7 @@
           <ul>
             <li><a href="https://github.com/blog/1614-two-factor-authentication">Enable Two-factor authentication</a> for your GitHub account.</li>
             <li><a href="http://kb.mailchimp.com/accounts/login/set-up-a-two-factor-authentication-app-at-login">Enable two-factor authentication</a> for your Mailchimp account. This one is especially important if you use Mailchimp to store your member list.</li>
-            <li>Don't share your usernames or passwords with anyone via email, Facebook message, or any other method. Ideally meet in person to share this kind of information.</li>
+            <li>Don't share your usernames or passwords with anyone via email, Facebook message, Slack message, or any other digital method that does not involve strong encription. Ideally meet in person to share this kind of information.</li>
           </ul>
 
         </div>
