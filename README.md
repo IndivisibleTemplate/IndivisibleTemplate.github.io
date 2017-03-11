@@ -8,4 +8,4 @@ See an example and the guide for setting up your website at [IndivisibleTemplate
 
 **Code**
 
-If you're a developer and want to fork or contribute to Indivisible Template check out the production code at [GitGub.com/IndivisibleTemplate/BasicTemplate](https://github.com/IndivisibleTemplate/BasicTemplate).
+If you're a developer and want to fork or contribute to Indivisible Template check out the production code at [GitHub.com/IndivisibleTemplate/BasicTemplate](https://github.com/IndivisibleTemplate/BasicTemplate).
