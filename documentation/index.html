@@ -8,8 +8,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
 
-    <meta name="description" content="NEED TO KNOW">
-    <meta name="author" content="Sahadeva Hammari et al">
+    <meta name="description" content="Set Up your Indivisible Tempalte Website - Documentation">
+    <meta name="author" content="Sahadeva Hammari">
 
     <title>Indivisible Template Documentation</title>
 
@@ -61,7 +61,7 @@
       <h1 id="introduction">Introduction</h1>
       <div class="row">
         <div class="col-md-10 col-lg-8">
-          <p>The purpose of the Indivisible Template is to provide Indivisible Chapters with a fast, free, and easy to use website and CMS (Content Management System).</p>
+          <p>The purpose of the Indivisible Template is to provide Indivisible Guide chapters with a fast, free, and easy to use website and CMS (Content Management System).</p>
         </div>
       </div>
 
@@ -72,9 +72,9 @@
           <li><a href="#designphilosophy">Design Philosophy</a></li>
           <li><a href="#domain">Getting a Domain</a></li>
           <li><a href="#template">Getting the Template (GitHub)</a></li>
-          <li><a href="#sitleaf">Editing Your Site (Connect the Sitleaf CMS)</a></li>
-          <li><a href="#cms">Using Your CMS</a></li>
-          <li><a href="#notes">Important Notes</a></li>
+          <li><a href="#sitleaf">Connect the Sitleaf CMS</a></li>
+          <li><a href="#cms">Updating Your Website</a></li>
+          <li><a href="#notes">Privacy and Security</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#contributing">Contributing</a></li>
           <li><a href="#thanks">Thanks</a></li>
@@ -152,12 +152,12 @@
         <div class="col-md-10 col-lg-8">
           <p>The Indivisible Template is hosted on GitHub.com, a popular open source hosting service. GitHub makes it easy for you to copy the Invisibile Template and provides you with space to host your new Indivisible Template website. Don't worry, you don't need to manage any servers or administer any software or look at any code.</p>
           <h5>1. Create a free GitHub.com account</h5>
-          <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. Fill out your basic info in <Strong>Step 1</strong>. In <strong>Step 2</strong> select <em>Unlimited public repositories for free</em> in the plan options. Do <strong>not</strong> check the "Help me set up an organization next" box during step 2.</p>
+          <p>GitHub is the service that will host your new website. Visit <a href="https://github.com">GitHub.com</a> in your browser and click the "Sign Up" button in the top right of the page. Fill out your basic info in <Strong>Step 1</strong> of the GitHub sign up form. In <strong>Step 2</strong> of the GitHub sign up form select <em>Unlimited public repositories for free</em> in the plan options. Do <strong>not</strong> check the "Help me set up an organization next" box during step 2.</p>
           <p>After filling out your info you should end up on a page like this:</p>
           <p><img src="assets/screenshot-github-homepage.png" class="img-fluid shadow"></p>
-          <p><strong>Important</strong>: GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email before going to the next step.</p>
+          <p><strong class="text-danger">Important:</strong> GitHub will send you an email to verify the email address you signed up with, make sure to click the link in their verification email before going to the next step.</p>
           <h5>2. "Fork" the template</h5>
-          <p>Click the "Fork" button below to copy the Indivisible Template to your GitHub account. You'll be taken to GitHub and shown the new copy of your Indivisible Template.</p>
+          <p>Click the "Fork" button below to copy the Indivisible Template to your the GitHub account you just created. You'll be taken to GitHub's webiste to begin the process setting up your copy of the Indivisible Template.</p>
           <p>Forking, for our purposes, just means to copy the Indivisible Template to your account so only you can edit it.</p>
 
           <div class="alert alert-success" role="alert">
@@ -170,32 +170,33 @@
           <h5>3. Edit your copy of Indivisible Template</h5>
           <p>Once GitHub finishing copying the Indivisible Template to your account you'll be taken to your new copy. Click the <em>Settings</em> link in the top right of the page so we can connect your copy of the Indivisible Template to the internet and connect it to your domain.</p>
           <p><img src="assets/screenshot-github-settings.png" class="img-fluid shadow"></p>
-          <p>In the <em>Repository name</em> field toward the top of the page change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong></em>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd change the name here to <strong>IndivisibleSF.github.io</strong></p>
+          <p>In the <em>Repository name</em> field toward the top of the page change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong></em>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd enter <strong>IndivisibleSF.github.io</strong> into the <em>Repository name</em> field.</p>
           <p><img src="assets/sceenshot-repo-name.png" class="img-fluid shadow"></p>
 
           <h5>4. Tell GitHub to connect your Indivisible Template to your domain</h5>
 
-          <p>In the same settings page where you just edited the name field, scroll down to the <em>GitHub Pages</em> section. This is what tells GitHub to turn on your website.</p>
+          <p>In the same settings page where you just edited the name field, scroll down to the <em>GitHub Pages</em> section. <em>Pages</em> is the GitHub feature that turns the Indivisible Template conde into a website.</p>
 
           <p>First, in the <em>Source</em> section, click the <em>None</em> dropdown under <em>Source</em>, select <em>Master branch</em>, and then click the <em>Save</em> button.</p>
           <p><img src="assets/sceenshot-default-repo.png" class="img-fluid shadow"></p>
-          <p>The page should refresh and if you scroll back down ot the <em>GitHub Pages</em> section of the settings page you'll see two new things in that section. First, a there should be a notification saying your website is published (the green highlighted area). This might take a few minutes to happen. Second, a new <em>Custom domain</em> field should be present. Enter the website domain you want to use for your website in this field and click save. For example, if you had purchase <em>IndivisibleEB.com</em> you would put in <em>IndivisibleEB.com</em>.
+          <p>The page should refresh and if you scroll back down ot the <em>GitHub Pages</em> section of the settings page you'll see two new things in there. First, there should be a notification saying your website is published (the green highlighted area). This might take a few minutes to happen. Second, a new <em>Custom domain</em> field should be present.</p>
+          <p>Enter the website domain you want to use for your website in the <em>Custom domain</em> field and click <em>Save</em>. For example, if you had purchase <em>IndivisibleEB.com</em> you would put in <em>IndivisibleEB.com</em> in this field and click <em>Save</em>.
           <p><img src="assets/sceenshot-set-custom-domain.png" class="img-fluid shadow"></p>
-          <p>You're almost done!</p>
+          <p><strong class="text-success">You're almost done!</strong></p>
           <h5>5. Tell your domain registrar that GitHub is hosting your website</h5>
           <p>Now that you have GitHub hosting your new Indivisible Template website, you need to tell your domain registrar to point your domain name to GitHub's servers so that your domain (e.g. <em>IndivisibleEB.com</em>) points to your new website.</p>
-          <p>Log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>.</p>
+          <p>The following steps will show you how to log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>. <em>A records</em> are like street addresses, and those <em>A records</em> are whre GitHub's servers and your website live.</p>
+          <p><strong>Note:</strong> The instructions below are for Google's domain registrar - Google Domains. If you used a different domain registrar to purchase your domain name you'll need to ask them how to update your <em>A records</em>.</p>
           <p>In Google Domains, this is the icon you click to edit your domain's DNS settings:</p>
           <p><img class="img-fluid shadow" src="assets/screenshot-dns-select.png"></p>
-          <p>Ignore all the fields on this page <em>except</em> for the <em>Custom resource records</em> section of the DNS settings tab:</p>
+          <p>Ignore all the domain settings <em>except</em> for the <em>Custom resource records</em> section of the DNS settings tab:</p>
           <p><img class="img-fluid shadow" src="assets/a-records-screenshot.png"></p>
           <p>In the form above:</p>
           <ul>
             <li>First type in <strong>@</strong> for the <em>name</em> field, then enter <strong>192.30.252.153</strong> into the <em>IPv4 address</em> field and click the <em>Add</em> button.</li>
-            <li>Repeat the process you just did and enter <strong>2</strong> for the <em>name</em> field and <strong>192.30.252.154</strong> into the <em>IPv4 address</em> and click <em>Add</em> again.</p>
+            <li>Repeat the above step and enter <strong>2</strong> for the <em>name</em> field and <strong>192.30.252.154</strong> into the <em>IPv4 address</em> and click <em>Add</em> again.</p>
           </ul>
           <p>That's it for this step.</p>
-          <p class="mt-4">If you need help ask with a different domain registrar please ask them for assistance changing your A records.</p>
           <h5>6. All done</h5>
           <p>Wait a few minutes and go to <em>yourdomainname.com</em> (where <em>yourdomainname.com</em> is the domain you purchased in <strong>Step 1</strong>) and your new site should be up and and ready to start editing.</p>
         </div>
@@ -205,7 +206,7 @@
 
       <div class="spacer clearfix"></div>
       <hr>
-      <h1 id="siteleaf">Editing Your Site (Connect the Sitleaf CMS)</h1>
+      <h1 id="siteleaf">Connect the Sitleaf CMS</h1>
       <div class="clearfix spacer"></div>
 
       <div class="row">
@@ -233,21 +234,25 @@
 
       <div class="spacer clearfix"></div>
       <hr>
-      <h1 id="cms">Using Your CMS</h1>
+      <h1 id="cms">Updating Your Website</h1>
       <div class="clearfix spacer"></div>
 
       <div class="row">
         <div class="col-sm-9 col-lg-8">
-          <p>Now that your website and Siteleaf CMS are set up, here are some tips for customizing your website.</p>
+          <p>Now that your website and Siteleaf CMS are set up, here are some basic things you'll want to update to get your site up and running:</p>
 
           <h5>1. Settings</h5>
           <p>In Siteleaf, click the <em>Settings</em> icon from the left nav. This is where most of your site-wide settings are kept.</p>
+
+          <p><img src="assets/screenshot-siteleaf-settings.png" class="img-fluid shadow"></p>
+
           <ul>
             <li>Change your chapter name by editing the <em>SITE TITLE</em> field at the top of the settings page.</li>
             <li>Change the <em>subtitle</em> to edit the title at the top of your website's homepage.</li>
-            <li>Change the <em>mailchimp-form-embed</em> to your mailchimp form embed so people can sign up for your email list.</li>
-            <li>Change the <em>twitter_username</em> and <em>facebook_username</em> fields to your social media accounts. For example, if your Facebook page lives at `Facebook.com/IndivisibleAustin` put `IndivisibleAustin` into the Facebook field.</li>
+            <li>Change the <em>email</em> field to your email address. This is the email address people will see when they click the <em>Contact</em> link in your website header.</li>
+            <li>Change the <em>twitter_username</em> and <em>facebook_username</em> fields to your social media accounts. For example, if your Facebook page lives at <em>Facebook.com/IndivisibleAustin</em> put <em>IndivisibleAustin</em> into the Facebook field.</li>
             <li>The <em>background-image</em> is where the background image on the homepage lives.</li>
+            <li>Include a Google Analytics tracking code in <em>google_analytics</em> if you want to track your website traffic.</li>
           </ul>
 
           <h5>3. Posts</h5>
@@ -255,20 +260,21 @@
           <p><strong class="text-danger">IMPORTANT</strong> To get a blog post to include your representatives contact information and a call script you must add the category <strong>Action</strong> to your post.</p>
           <p><strong class="text-danger">IMPORTANT</strong> To get a blog post to include event details and the custom event styles you must include the category <strong>Event</strong> in the blog post.</p>
 
-          <h5>3. Successes</h5>
-          <p>Click the <em>medi-items</em> link in the left nav. To create a <em>Success</em> post publish a new post from this section of this site. These will show up in the right column of the homepage and the </p>
+          <h5>4. Become a Member</h5>
+          <p>Click the <em>pages</em> link in the left nav, then click the <em>Become A Member</em> page in the list of pages in the middle of the page. Edit the main <em>Content</em> field at the top of the page to include a short description of your group. Copy and paste your Mailchimp signup form embed code from Mailchim into the <em>mailchimp-form-embed</em> field. This will allow members to join your group.</p>
 
-          <h5>3. Calendar</h5>
-          <p>Click the <em>Pages</em> link in the left nav. Click the <em>Calendar</em> page. From there you can embed your Google Calendar and it will show up on your website's calendar page.</p>
+          <h5>4. Successes</h5>
+          <p>Click the <em>Successes</em> link in the left nav. To create a <em>Success</em> post publish a new post from this section of this site. These will show up in the right column of the homepage and the Successes page on your website. Here are <a href="http://kb.mailchimp.com/lists/signup-forms/add-a-signup-form-to-your-website">detailed instructions</a> on how to get a signup form embed code from Mailchimp.</p>
 
-          <h5>4. Representatives</h5>
+          <h5>5. Calendar</h5>
+          <p>Click the <em>Pages</em> link in the left nav. Click the <em>Calendar</em> page. You can embed a Google Calendar embed code into the <em>embed-code</em> field on this page and your Google Calendar will show up on your website's calendar page.</p>
+
+          <h5>6. Representatives</h5>
           <p>Click the <em>Representatives</em> link in the left nav. From here you can add and edit your representatives and their contact info.</p>
 
         </div>
 
-        <div class="col-sm-3 offset-lg-1">
-          <img class="img-fluid mb-4 shadow" src="assets/siteleaf.jpg">
-        </div>
+
 
       </div>
 
@@ -276,13 +282,13 @@
 
       <div class="spacer clearfix"></div>
       <hr>
-      <h1 id="notes">Important Notes</h1>
+      <h1 id="notes">Privacy and Security</h1>
       <div class="clearfix spacer"></div>
 
       <div class="row">
         <div class="col-sm-9 col-lg-8">
           <h5 class="text-danger">"Pull Requests"</h5>
-          <p>Because your Indivisible Tempalate website is hosted on GitHub, people can try to send you code updates with what is called a "Pull Request". <strong>Do not accept any pull requests form anyone except the official IndivisibleTemplate</strong>.</p>
+          <p>Because your Indivisible Tempalate website is hosted on GitHub, people can send you code updates with what is called a "Pull Request". <strong>Do not accept any pull requests form anyone except the official IndivisibleTemplate</strong>.</p>
 
           <h5 class="text-danger">Privacy</h5>
           <p>You should consider every piece of content hosted on your Indivisible Website to be public. There are no password protected pages. Do not try to store and information on your website that contains personal information about you or any of your members. You should even consider your draft blog posts to be public. This is both because your website code is stored on GitHub and because nearly every piece of software is vulnerable to hacking.</p>
