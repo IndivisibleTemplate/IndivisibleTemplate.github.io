@@ -20,6 +20,20 @@ p {
   font-size: 18px;
 }
 
+
+
+  .help-nav a {
+    padding: 25px 20px 30px;
+    margin-bottom: 25px;
+  }
+
+  .help-nav i.material-icons {
+    font-size: 54px;
+    margin-bottom: 15px;
+    display: block;
+    color: #aaa;
+  }
+
 .spacer {
     height: 30px;
     display: block;
