@@ -243,29 +243,29 @@
           <div class="alert alert-success" role="alert">
             <a class="github-button" href="https://github.com/IndivisibleTemplate/BasicTemplate/fork" data-icon="octicon-repo-forked" data-style="mega" aria-label="Fork IndivisibleTemplate/BasicTemplate on GitHub" target="_blank">Fork</a> &nbsp; &larr; Click this button to get your copy of Indivisible Template
           </div>
-          <p>After clicking the "fork" button above you'll be taken to GitHub.com. There you'll asked which GitHub account you want your new website to be associated with. Select the account you set up in <em>Step 1</em>.</p>
+          <p>After clicking the "fork" button above you'll be taken to GitHub.com. There you'll be asked which GitHub account you want your new website to be associated with. Select the account you set up in <em>Step 1</em>.</p>
           <p><img src="assets/screenshot-github-selectforkaccount.png" class="img-fluid shadow"></p>
-          <p><em>The name and icon of your account may look be different than the sceenshot above above</em></p>
+          <p><em>The name and icon of your account may be different than the sceenshot above above</em></p>
           <p>GitHub will then tell you that it is copying the Indivisible Template to your account. This should only take a minute.</p>
           <h5>3. Edit your copy of Indivisible Template</h5>
-          <p>Once GitHub finishing copying the Indivisible Template to your account you'll be taken to your new copy. Click the <em>Settings</em> link in the top right of the page so we can connect your copy of the Indivisible Template to the internet and connect it to your domain.</p>
+          <p>Once GitHub finishing copying the Indivisible Template to your account you'll be taken to your new copy. Click the <em>Settings</em> link in the top right of the page so we can connect your copy of the Indivisible Template to the internet and to your domain.</p>
           <p><img src="assets/screenshot-github-settings.png" class="img-fluid shadow"></p>
-          <p>In the <em>Repository name</em> field toward the top of the page change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong></em>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd enter <strong>IndivisibleSF.github.io</strong> into the <em>Repository name</em> field.</p>
+          <p>In the <em>Repository name</em> field toward the top of the settings page change the name <strong>BasicTemplate</strong> to <em><strong>YourUsername.github.io</strong></em>. Your username is listed at the top left of the page before <em>/BasicTemplate</em>. So, if your username was <em>IndivisibleSF</em> you'd enter <strong class="text-success">IndivisibleSF.github.io</strong> into the <em>Repository name</em> field.</p>
           <p><img src="assets/sceenshot-repo-name.png" class="img-fluid shadow"></p>
 
           <h5>4. Tell GitHub to connect your Indivisible Template to your domain</h5>
 
-          <p>In the same settings page where you just edited the name field, scroll down to the <em>GitHub Pages</em> section. <em>Pages</em> is the GitHub feature that turns the Indivisible Template conde into a website.</p>
+          <p>In the same settings page where you just edited the name field, scroll down to the <em>GitHub Pages</em> section. <em>GitHub Pages</em> is the GitHub feature that turns the Indivisible Template into a website.</p>
 
           <p>First, in the <em>Source</em> section, click the <em>None</em> dropdown under <em>Source</em>, select <em>Master branch</em>, and then click the <em>Save</em> button.</p>
           <p><img src="assets/sceenshot-default-repo.png" class="img-fluid shadow"></p>
-          <p>The page should refresh and if you scroll back down ot the <em>GitHub Pages</em> section of the settings page you'll see two new things in there. First, there should be a notification saying your website is published (the green highlighted area). This might take a few minutes to happen. Second, a new <em>Custom domain</em> field should be present.</p>
-          <p>Enter the website domain you want to use for your website in the <em>Custom domain</em> field and click <em>Save</em>. For example, if you had purchase <em>IndivisibleEB.com</em> you would put in <em>IndivisibleEB.com</em> in this field and click <em>Save</em>.
+          <p>The page should automatically refresh after you click <em>Save</em>. Scroll down to the <em>GitHub Pages</em> section of the settings page again and you'll see two new features. First, there should be a notification saying your website is published (the green highlighted area). This might take a few minutes to happen. Second, a new <em>Custom domain</em> field should be present.</p>
+          <p>Enter the website domain you want to use for your website in the <em>Custom domain</em> field and click <em>Save</em>. For example, if you had purchased <em>IndivisibleEB.com</em> you would put in <strong class="text-success">IndivisibleEB.com</strong> in this field and click <em>Save</em>.
           <p><img src="assets/sceenshot-set-custom-domain.png" class="img-fluid shadow"></p>
-          <p><strong class="text-success">You're almost done!</strong></p>
+          <p><strong>You're almost done!</strong></p>
           <h5>5. Tell your domain registrar that GitHub is hosting your website</h5>
           <p>Now that you have GitHub hosting your new Indivisible Template website, you need to tell your domain registrar to point your domain name to GitHub's servers so that your domain (e.g. <em>IndivisibleEB.com</em>) points to your new website.</p>
-          <p>The following steps will show you how to log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>. <em>A records</em> are like street addresses, and those <em>A records</em> are whre GitHub's servers and your website live.</p>
+          <p>The following steps will show you how to log into your domain registrar, find the DNS section, and add the following <strong>A</strong> records: <em>192.30.252.153</em> and <em>192.30.252.154</em>. <em>A records</em> are like street addresses, and those long <em>A records</em> numbers just mentioned are where GitHub's servers live.</p>
           <p><strong>Note:</strong> The instructions below are for Google's domain registrar - Google Domains. If you used a different domain registrar to purchase your domain name you'll need to ask them how to update your <em>A records</em>.</p>
           <p>In Google Domains, this is the icon you click to edit your domain's DNS settings:</p>
           <p><img class="img-fluid shadow" src="assets/screenshot-dns-select.png"></p>
@@ -299,7 +299,7 @@
             <li>Go to <a href="https://manage.siteleaf.com/sites">manage.siteleaf.com/sites</a> and click <em>Create new site</em> button.</li>
             <li>In the right hand column click the <em>Connect existing repo</em> button</li>
             <li>Select <em>Public repo</em></li>
-            <li>In the <em>Repo Name</em> field, type in your GitHub username and your Indivisible Template name should appear in an autosuggest field. Click the name of your GitHub Indivisible Template (e.g. <em>IndivisibleSF.github.io</em>) to connect Siteleaf to your GitHub account so that you can use Siteleaf to edit your new template.</li>
+            <li>In the <em>Repo Name</em> field, type in your GitHub username (the <strong>username</strong> part of <em><strong>username</strong>.github.io</em>) and your Indivisible Template name should appear in an autosuggest field. Click the name of your GitHub Indivisible Template (e.g. <em>IndivisibleSF.github.io</em>) to connect Siteleaf to your GitHub account so that you can use Siteleaf to edit your new template.</li>
           </ul>
           <h5>3. All done</h5>
           <p>You should now be able to edit your live Indivisible Template powered website, start posting, and take on the world.</p>
@@ -337,8 +337,8 @@
 
           <h5>3. Posts</h5>
           <p>In the left nav click <em>Posts</em>. This is where you can post blog post, action posts, and event posts. These are all just blog posts and will show up on your site's homepage.</p>
-          <p><strong class="text-danger">IMPORTANT</strong> To get a blog post to include your representatives contact information and a call script you must add the category <strong>Action</strong> to your post.</p>
-          <p><strong class="text-danger">IMPORTANT</strong> To get a blog post to include event details and the custom event styles you must include the category <strong>Event</strong> in the blog post.</p>
+          <p><strong class="text-danger">IMPORTANT:</strong> To get a blog post to include your representatives contact information and a call script you must add the category <strong>Action</strong> to your post.</p>
+          <p><strong class="text-danger">IMPORTANT:</strong> To get a blog post to include event details and the custom event styles you must include the category <strong>Event</strong> in the blog post.</p>
 
           <h5>4. Become a Member</h5>
           <p>Click the <em>pages</em> link in the left nav, then click the <em>Become A Member</em> page in the list of pages in the middle of the page. Edit the main <em>Content</em> field at the top of the page to include a short description of your group. Copy and paste your Mailchimp signup form embed code from Mailchim into the <em>mailchimp-form-embed</em> field. This will allow members to join your group.</p>
@@ -351,6 +351,9 @@
 
           <h5>6. Representatives</h5>
           <p>Click the <em>Representatives</em> link in the left nav. From here you can add and edit your representatives and their contact info.</p>
+
+          <h5>A note about Siteleaf plans</h5>
+          <p>Siteleaf includes one free plan that lasts forever. It's called the <em>Developer</em> plan. This is all you need to get up and running and to edit your site forever. If Siteleaf tells you your trial is ending soon go to the purchase page and select the free <em>developer</em> plan. This plan, does not include features like milti-autor editing. If you want those features please do purchase the more advanced Siteleaf plans.</p>
 
         </div>
 
