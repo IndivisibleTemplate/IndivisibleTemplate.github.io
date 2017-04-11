@@ -8,9 +8,10 @@ tags:
 - confirmation hearing
 is featured: true
 call-script-text: "Hi, my name is ____, I'm a local constituent. My zip code is ___.
-  I want Representative _____ to say NO to Andy Puzder. He is terrible choice for
-  Secretary of Labor. Yesterday, Puzder and the parent company of his Carl's Jr. fast-food
-  chain were hit with a class action lawsuit for wage suppression! \n\n..."
+  I want Representative _____ to say NO to [Andy Puzder](https://en.wikipedia.org/wiki/Andrew_Puzder).
+  He is terrible choice for Secretary of Labor. Yesterday, Puzder and the parent company
+  of his Carl's Jr. fast-food chain were hit with a class action lawsuit for wage
+  suppression! \n\n..."
 ---
 
 Today's Daily Action is to call your senators to reiterate that [Andy Puzder](https://en.wikipedia.org/wiki/Andrew_Puzder) is a terrible--and now even more vulnerable--choice for Secretary of Labor. Yesterday, Puzder and the parent company of his Carl's Jr. fast-food chain were hit with a class action lawsuit for wage suppression.
